@@ -1,11 +1,6 @@
 import { Handlebars, HandlebarsConfig } from 'https://deno.land/x/handlebars/mod.ts';
 import express from 'npm:express';
 
-// First, create instance of Handlebars
-
-// or with custom config
-
-// by default uses this config:
 const DEFAULT_HANDLEBARS_CONFIG: HandlebarsConfig = {
 	baseDir: 'views',
 	extname: '.hbs',
